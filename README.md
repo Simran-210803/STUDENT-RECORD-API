@@ -156,9 +156,9 @@ This project is licensed under the **MIT License** — you are free to use, modi
 ## **Author**
 
 **Simranpreet Kaur**  
--*Student Record API — Minor Project 1*  
--simranpreet4248@gmail.com    
--[GitHub](https://github.com/Simran-210803)
+- *Student Record API — Minor Project 1*  
+- simranpreet4248@gmail.com    
+- [GitHub](https://github.com/Simran-210803)
 
 
 

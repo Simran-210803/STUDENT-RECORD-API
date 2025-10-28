@@ -31,6 +31,7 @@ Create an API to manage student data with Express and MongoDB.
   city: String
 }
 ```
+---
 
 ## **API ROUTES**
 
@@ -41,15 +42,20 @@ Create an API to manage student data with Express and MongoDB.
 | **PUT**    | `/students/:id` | Update student info |
 | **DELETE** | `/students/:id` | Delete a student    |
 
-## **Example POST Request (in Postman)**
+---
 
+## **Example POST Request (in Postman)**
+```
 {
   "name": "Simranpreet Kaur",
   "course": "B.Tech",
   "age": 22,
   "city": "Bhilai"
 }
+```
 
+---
+```
 ## **Project Structure**
 
 STUDENT-RECORD-API/
@@ -74,6 +80,8 @@ STUDENT-RECORD-API/
 ├── package.json
 ├── .gitignore
 └── README.md
+```
+---
 
 ## **Environment Variables**
 
@@ -82,49 +90,59 @@ In your backend folder, create a .env file:
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/studentDB
 
+---
+
 ## **How to Run the Project**
 
--Backend
+- Backend
 
 cd backend
 npm init -y (creates a package.json file)
 npm install
 npm run dev
 
--Frontend
+- Frontend
 
 cd frontend
 npm init -y (creates a package.json file)
 npm install
 npm run dev
 
+---
+
 ## ** Frontend Features**
 
--Simple and clean UI for adding, editing, and deleting students
--Input fields: name, course, age, and city
--Basic validation for name and course
+- Simple and clean UI for adding, editing, and deleting students
+- Input fields: name, course, age, and city
+- Basic validation for name and course
+
+---
 
 ## **How It Works**
 
--User fills the student form (Name, Course, Age, City).
--The data is sent to the backend API (Express server).
--The server validates inputs and saves the record to MongoDB using Mongoose.
--All records are displayed dynamically on the frontend.
--Users can Edit, Delete, or Add new records in real-time.
+1. User fills the student form (Name, Course, Age, City).
+2. The data is sent to the backend API (Express server).
+3. The server validates inputs and saves the record to MongoDB using Mongoose.
+4. All records are displayed dynamically on the frontend.
+5. Users can Edit, Delete, or Add new records in real-time.
+
+---
 
 ## **Technologies Used**
 
--Node.js
--Express.js
--MongoDB + Mongoose
--React.js (Frontend)
--Postman (for API testing)
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- React.js (Frontend)
+- Postman (for API testing)
 
 ---
 
 ## **License**
 
 This project is licensed under the **MIT License** — you are free to use, modify, and distribute it with proper attribution.  
+
+---
 
 ## **Author**
 

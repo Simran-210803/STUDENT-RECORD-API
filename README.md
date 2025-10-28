@@ -30,6 +30,7 @@ Create an API to manage student data with Express and MongoDB.
   age: Number,
   city: String
 }
+```
 
 ## **API ROUTES**
 

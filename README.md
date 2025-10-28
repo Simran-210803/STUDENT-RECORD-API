@@ -33,7 +33,7 @@ Create an API to manage student data with Express and MongoDB.
 ```
 ---
 
-## **API ROUTES**
+## API ROUTES
 
 | Method     | Endpoint        | Description         |
 | ---------- | --------------- | ------------------- |
@@ -44,7 +44,7 @@ Create an API to manage student data with Express and MongoDB.
 
 ---
 
-## **Example POST Request (in Postman)**
+## Example POST Request (in Postman)
 ```
 {
   "name": "Simranpreet Kaur",
@@ -56,7 +56,7 @@ Create an API to manage student data with Express and MongoDB.
 
 ---
 
-## **Project Structure**
+## Project Structure
 ```
 STUDENT-RECORD-API/
 │
@@ -92,7 +92,7 @@ STUDENT-RECORD-API/
 ```
 ---
 
-## **Environment Variables**
+## Environment Variables
 
 In your backend folder, create a .env file:
 ```
@@ -101,25 +101,25 @@ MONGO_URI=mongodb://127.0.0.1:27017/studentDB
 ```
 ---
 
-## **How to Run the Project**
+## How to Run the Project
 
 - Backend
 ```
 cd backend
-npm init -y (creates a package.json file)
+npm init -y  #creates a package.json file
 npm install
 npm run dev
 ```
 - Frontend
 ```
 cd frontend
-npm init -y (creates a package.json file)
+npm init -y  #creates a package.json file
 npm install
 npm run dev
 ```
 ---
 
-## ** Frontend Features**
+## Frontend Features
 
 - Simple and clean UI for adding, editing, and deleting students
 - Input fields: name, course, age, and city
@@ -127,7 +127,7 @@ npm run dev
 
 ---
 
-## **How It Works**
+## How It Works
 
 1. User fills the student form (Name, Course, Age, City).
 2. The data is sent to the backend API (Express server).
@@ -137,7 +137,7 @@ npm run dev
 
 ---
 
-## **Technologies Used**
+## Technologies Used
 
 - Node.js
 - Express.js

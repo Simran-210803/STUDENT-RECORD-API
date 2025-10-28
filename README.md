@@ -55,59 +55,68 @@ Create an API to manage student data with Express and MongoDB.
 ```
 
 ---
-```
-## **Project Structure**
 
+## **Project Structure**
+```
 STUDENT-RECORD-API/
 │
 ├── backend/
-│   ├── models/
-│   │   └── studentModel.js
-│   ├── routes/
-│   │   └── studentRoutes.js
-│   ├── server.js
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── db.js
+│   │   ├── models/
+│   │   │   └── student.js
+│   │   ├── routes/
+│   │   │   └── studentRoutes.js
+│   │   └── server.js
+│   ├── .env
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── frontend/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
-│       ├── components/
-│       │   ├── StudentForm.js
-│       │   └── StudentList.js
-│       ├── App.js
-│       └── index.js
+│   │   ├── components/
+│   │   │   ├── StudentForm.js
+│   │   │   └── StudentList.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── package-lock.json
 │
-├── package.json
 ├── .gitignore
+├── LICENSE
 └── README.md
+
 ```
 ---
 
 ## **Environment Variables**
 
 In your backend folder, create a .env file:
-
+```
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/studentDB
-
+```
 ---
 
 ## **How to Run the Project**
 
 - Backend
-
+```
 cd backend
 npm init -y (creates a package.json file)
 npm install
 npm run dev
-
+```
 - Frontend
-
+```
 cd frontend
 npm init -y (creates a package.json file)
 npm install
 npm run dev
-
+```
 ---
 
 ## ** Frontend Features**

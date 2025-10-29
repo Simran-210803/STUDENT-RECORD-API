@@ -155,7 +155,7 @@ npm run dev
 ## 🌐 **Live Demo**
 
 - **Backend (Render Hosted)**: [https://student-record-api-jp1a.onrender.com](https://student-record-api-jp1a.onrender.com)  
-  *(This is your live API endpoint — you can test routes directly in Postman using this base URL)*
+  *(This is the live API endpoint — Routes can be directly in Postman using this base URL)*
 
 ---
 

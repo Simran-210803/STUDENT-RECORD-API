@@ -152,6 +152,13 @@ npm run dev
 
 ---
 
+## 🌐 **Live Demo**
+
+- **Backend (Render Hosted)**: [https://student-record-api-jp1a.onrender.com](https://student-record-api-jp1a.onrender.com)  
+  *(This is your live API endpoint — you can test routes directly in Postman using this base URL)*
+
+---
+
 ## **License**
 
 This project is licensed under the **MIT License** — you are free to use, modify, and distribute it with proper attribution.  

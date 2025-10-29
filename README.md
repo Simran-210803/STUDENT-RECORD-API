@@ -102,7 +102,8 @@ STUDENT-RECORD-API/
 In your backend folder, create a .env file:
 ```
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/studentDB
+MONGO_URI=your_mongodb_connection_string_here   # (MongoDB Atlas or MongoDB Compass connection)
+
 ```
 ---
 
